@@ -3,5 +3,5 @@
 --use edunovawp7;
 
 create table smjer(
-naziv vrchar(50)
+naziv varchar(50)
 );
