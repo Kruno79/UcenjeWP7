@@ -40,3 +40,17 @@ CREATE TABLE prodaja (
   cijena DECIMAL(10,2),
   FOREIGN KEY (dorada) REFERENCES dorade(sifra)
 );
+
+
+insert into automobili (marka,model,motor,vin,godiste,kilometraza) values
+('Renault','Scenic','15dci','VF1JZ0A0643508580','2010','223017');
+
+insert into otkupi(automobil,cijena,datum,prodavatelj) values
+('2','3000.00','2024-12-09','ivan_horvat')
+
+insert into dorade (otkup,cijena_dijelova,cijena_rada) values
+('1', '500.00', '300.00');
+
+insert into prodaja (dorada,cijena) VALUES 
+('1', '4300.00');
+
