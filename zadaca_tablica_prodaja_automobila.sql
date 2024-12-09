@@ -11,7 +11,7 @@ CREATE TABLE automobili (
   sifra int not null primary key identity(1,1),
   marka VARCHAR(50) not null,
   model VARCHAR(50) not null,
-  motor VARCHAR(50) not null,
+  motor VARCHAR(50),
   vin VARCHAR(17),
   godiste INT,
   kilometraza INT
@@ -49,8 +49,7 @@ insert into otkupi(automobil,cijena,datum,prodavatelj) values
 (1,3000,'2024-12-09','Ivan Horvat');
 
 insert into dorade (otkup,cijena_dijelova,cijena_rada) values
-(1, '500.00', '300.00');
+(1, 500, 300);
 
 insert into prodaja (dorada,cijena) VALUES 
 (1, 4300);
-
