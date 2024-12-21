@@ -9,28 +9,28 @@ namespace Ucenje
     internal class E02Varijable
     {
 
-
         public static void Izvedi()
         {
 
-            // Console.WriteLine("E02");
+            //Console.WriteLine("E02");
 
             // Tipovi podataka
 
-            int cijeliBroj = 1; // ovo je skraće kako smo učili od korisnika
+            int cijeliBroj = 1; // ovo je skraće kao da smo učitali od korisnika
 
             bool logickaVrijednost = true; // zadana vrijednost je false
 
             float decimalniBroj = 4.5F;
 
-            double velikiDecimalnibroj = 3.14;
+            double velikiDecimalniBroj = 3.14;
 
             decimal decimalniBroj2 = 3.4M;
 
-            char znak = 'E';
+            char znak = '@';
 
             string nizZnakova = "abcdefg";
-            Console.WriteLine("Znak je broj {0}", (int)znak);  // (INT) JE CAST
+
+            Console.WriteLine("Znak je broj {0}", (int)znak); // (int) je cast
 
             cijeliBroj = int.MaxValue;
 
@@ -38,6 +38,11 @@ namespace Ucenje
             Console.WriteLine(cijeliBroj+1);
 
 
+
         }
+
+
+
+
     }
 }
