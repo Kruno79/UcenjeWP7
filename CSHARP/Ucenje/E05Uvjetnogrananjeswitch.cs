@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Ucenje
 {
-    internal class E05Uvjetnogrananjeswitch
+    internal class E05UvjetnoGrananjeSwitch
     {
 
         public static void Izvedi()
         {
+            // switch radi s int, string, char i drugi https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/statements#1383-the-switch-statement
+
+
             int broj = 3;
 
             switch (broj)
@@ -36,5 +39,6 @@ namespace Ucenje
             }
 
         }
+
     }
 }

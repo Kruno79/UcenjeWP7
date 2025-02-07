@@ -9,23 +9,26 @@ namespace Ucenje
     internal class E04Z1
     {
 
+        // Program unosi od korisnika cijeli broj.
+        // Program ispuje da li je broj paran ili neparan
+
         public static void Izvedi()
         {
-            Console.WriteLine("Unesi cijeli broj: ");
+            Console.Write("Unesi cijeli broj: ");
             int broj = int.Parse(Console.ReadLine());
 
-            if (broj % == 0)
+            if (broj % 2 == 0)
             {
                 Console.WriteLine("PARAN");
             }
             else
             {
-
-
-                Console.WriteLine("NEPARAN"); 
+                Console.WriteLine("NEPARAN");
             }
-            Console.WriteLine("{0}PARAN", broj % 2 == 0? "" : "NE");
+
+            Console.WriteLine("{0}PARAN", broj % 2 == 0 ? "" : "NE"); 
 
         }
+
     }
 }
